@@ -1,0 +1,118 @@
+PHP Dasar
+- Dasar-dasar PHP: Ini merujuk pada pemahaman tentang apa itu PHP sebagai bahasa pemrograman server-side, yang digunakan untuk membuat halaman web dinamis.
+- Konsep dasar PHP: Meliputi pemahaman bahwa PHP adalah skrip yang dieksekusi di server, yang menghasilkan konten dinamis yang kemudian dikirimkan ke peramban web.
+
+Penulisan Sintaks PHP
+- Penulisan sintaks PHP: Menyertakan kode PHP di dalam dokumen HTML menggunakan tanda `<?php ?>` untuk memulai dan mengakhiri blok kode PHP.
+
+Contoh Penulisan Sintaks PHP
+<?php
+    // Penulisan sintaks PHP di dalam HTML
+    $nama = "John";
+    echo "Halo, $nama!";
+    ?>
+
+Menjalankan Sintaks PHP
+- Cara menjalankan sintaks PHP: Memahami bahwa sintaks PHP dapat dijalankan di server dengan menyertakan kode PHP di dalam file HTML atau menggunakan file PHP murni.
+
+Variabel
+- Pengertian variabel: Memahami konsep variabel sebagai wadah untuk menyimpan data.
+- Deklarasi variabel: Cara untuk mendeklarasikan variabel dalam PHP.
+- Penggunaan variabel: Bagaimana variabel digunakan untuk menyimpan dan memanipulasi data dalam skrip PHP.
+
+Contoh Variabel
+<?php
+// Contoh penggunaan variabel
+$umur = 25;
+echo "Umur saya adalah $umur tahun.";
+?>
+
+Tipe Data
+- Berbagai tipe data: Mengenal dan memahami tipe data yang didukung oleh PHP seperti string, integer, float, boolean, dan array.
+- Konversi tipe data: Bagaimana melakukan konversi antar tipe data dalam PHP.
+
+Contoh Tipe Data
+<?php
+// Contoh tipe data dan konversi
+$angka = 10;
+$teks = "20";
+$hasil = $angka + (int)$teks;
+echo $hasil; // Output: 30
+?>
+
+Function
+- Pengertian fungsi: Memahami apa itu fungsi dalam konteks PHP.
+- Pembuatan fungsi: Cara membuat fungsi di PHP.
+- Penggunaan fungsi: Bagaimana menggunakan fungsi untuk mengorganisir kode dan memisahkan logika bisnis agar lebih mudah dikelola.
+
+Contoh Function
+<?php
+// Contoh pembuatan dan pemanggilan fungsi
+function sapa($nama) {
+    echo "Halo, $nama!";
+}
+
+sapa("Alice"); // Output: Halo, Alice!
+?>
+
+Operator Aritmatika
+- Operator aritmatika: Mengenal dan memahami operator aritmatika standar dalam PHP seperti penjumlahan, pengurangan, perkalian, pembagian, dan modulus.
+
+Contoh Aritmatika
+<?php
+// Contoh penggunaan operator aritmatika
+$a = 10;
+$b = 5;
+echo $a + $b; // Output: 15
+?>
+
+Operator Pembanding
+- Operator pembanding: Penggunaan operator pembanding untuk membandingkan nilai antara dua variabel atau ekspresi.
+
+Contoh Pembanding
+<?php
+// Contoh penggunaan operator pembanding
+$a = 10;
+$b = 5;
+echo ($a > $b) ? "Benar" : "Salah"; // Output: Benar
+?>
+
+Operator Kondisional
+- Operator kondisional: Penggunaan operator kondisional seperti `if`, `else`, dan `elseif` untuk membuat keputusan berdasarkan kondisi tertentu.
+
+Contoh Kondisional
+<?php
+// Contoh penggunaan operator kondisional
+$nilai = 80;
+if ($nilai >= 70) {
+    echo "Lulus";
+} else {
+    echo "Tidak Lulus";
+}
+?>
+
+Conditional
+- Konsep penggunaan kondisional: Bagaimana menggunakan kondisional untuk mengontrol alur eksekusi program berdasarkan kondisi yang ditentukan.
+
+Contoh Conditional
+<?php
+// Contoh penggunaan kondisional
+$umur = 25;
+if ($umur >= 18) {
+    echo "Dewasa";
+} else {
+    echo "Anak-anak";
+}
+?>
+
+Perulangan
+- Jenis perulangan: Mengenal dan memahami berbagai jenis perulangan dalam PHP seperti `for`, `while`, `do-while`, dan `foreach`.
+- Penggunaan perulangan: Bagaimana menggunakan perulangan untuk mengulangi tugas-tugas tertentu berulang kali berdasarkan kondisi yang ditentukan.
+
+Contoh Perulangan
+<?php
+// Contoh penggunaan perulangan
+for ($i = 1; $i <= 5; $i++) {
+    echo "Iterasi ke-$i <br>";
+}
+?>
